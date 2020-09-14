@@ -6,6 +6,9 @@ import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements AfterViewInit {
+
+  userLoggedIn = true;
+
   title = 'Angular Component Interaction';
   imgUrl = 'https://picsum.photos/200';
 

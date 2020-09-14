@@ -117,8 +117,13 @@
               "devServerTarget": "angular-component-interaction:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular-component-interaction"
 }

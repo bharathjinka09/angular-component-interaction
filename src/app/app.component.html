@@ -34,7 +34,21 @@
     <p>Welcome {{ customerName }}</p>
   </div>
 
-  <h1>ViewChild Decorator(Access DOM element in the template from a component class)</h1>
+  <h1>
+    ViewChild Decorator(Access DOM element in the template from a component
+    class)
+  </h1>
 
-  
+  <div>
+    <h1>Input Decorator(sending data from parent to child component)</h1>
+    <h3>Parent Component</h3>
+
+    <app-child [loggedIn]="userLoggedIn"></app-child>
+    <strong>userLoggedIn</strong> is coming from Parent component and
+    <strong>loggedIn</strong> is coming from Child component
+  </div>
+
+  <div>
+    <h1><u>Getters and Setters</u></h1>
+  </div>
 </div>
